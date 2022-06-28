@@ -1,5 +1,5 @@
-
-            function signup() {
+<script>
+            function GEEKFORGEEKS() {
                 var name =
                     document.forms.RegForm.Name.value;
                 var email =
@@ -51,6 +51,13 @@
                     phone.focus();
                     return false;
                 }
+ 
+                if (what.selectedIndex == -1) {
+                    alert("Please enter your course.");
+                    what.focus();
+                    return false;
+                }
+ 
                 return true;
             }
-    
+        </script>
