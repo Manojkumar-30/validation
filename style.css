@@ -17,7 +17,6 @@ body {
 
 .container {
 	background-color: #fff;
-	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	overflow: hidden;
 	width: 400px;
@@ -26,7 +25,7 @@ body {
 
 .header {
 	border-bottom: 1px solid #f0f0f0;
-	background-color: #f7f7f7;
+	background-color: #d3f1ff;
 	padding: 20px 40px;
 }
 
@@ -51,7 +50,6 @@ body {
 
 .form-control input {
 	border: 2px solid #f0f0f0;
-	border-radius: 4px;
 	display: block;
 	font-family: inherit;
 	font-size: 14px;
@@ -102,9 +100,8 @@ body {
 }
 
 .form button {
-	background-color: #e49400;
-	border: 2px solid #e49400;
-	border-radius: 4px;
+	background-color: #faf8f5;
+	border: 2px solid #dad9d7;
 	color: #fff;
 	display: block;
 	font-family: inherit;
@@ -134,7 +131,6 @@ form .field input{
   border: 1px solid lightgrey;
   padding-left: 15px;
   outline: none;
-  border-radius: 5px;
   font-size: 17px;
   transition: all 0.3s;
 }
@@ -166,7 +162,6 @@ form .indicator span{
   height: 100%;
   width: 100%;
   background: lightgrey;
-  border-radius: 5px;
 }
 form .indicator span:nth-child(2){
   margin: 0 3px;
@@ -178,7 +173,6 @@ form .indicator span.active:before{
   left: 0;
   height: 100%;
   width: 100%;
-  border-radius: 5px;
 }
 .indicator span.weak:before{
   background-color: #ff4757;
@@ -199,7 +193,7 @@ form .text.weak{
   color: #ff4757;
 }
 form .text.medium{
-  color: orange;
+  color: rgb(12, 12, 11);
 }
 form .text.strong{
   color: #23ad5c;
