@@ -4,71 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register - Kerala Tourism</title>
+    <link rel="shortcut icon" href="../images/logokerala.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-   
+    <!-- Font awsome kit -->
+    <script src="https://kit.fontawesome.com/541277e46f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 style="text-align: center;">REGISTRATION FORM</h1>
-    <form name="RegForm" onsubmit="return GEEKFORGEEKS()" method="post">
-         
-<p>Name: <input type="text"
-                        size="65" name="Name" /></p>
 
-        <br />
-         
-<p>Address: <input type="text"
-                        size="65" name="Address" />
-    </p>
-
-        <br />
-         
-<p>E-mail Address: <input type="text"
-                        size="65" name="EMail" /></p>
-
-        <br />
-         
-<p>Password: <input type="text"
-                    size="65" name="Password" /></p>
-
-        <br />
-         
-<p>Telephone: <input type="text"
-                    size="65" name="Telephone" /></p>
-
-        <br />
-
-         
-<p>
-            SELECT YOUR COURSE
-            <select type="text" value="" name="Subject">
-                <option>BTECH</option>
-                <option>BBA</option>
-                <option>BCA</option>
-                <option>B.COM</option>
-                <option>GEEKFORGEEKS</option>
-            </select>
-        </p>
-
-        <br />
-        <br />
-         
-<p>Comments: <textarea cols="55"
-                        name="Comment"> </textarea></p>
-
-         
-<p>
-            <input type="submit"
-                value="send" name="Submit" />
-            <input type="reset"
-                value="Reset" name="Reset" />
-        </p>
-
-    </form>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="username" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="abc@gmail.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Phone Number</label>
+                <input type="text name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" id="phone" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password check</label>
+                <input type="password" placeholder="re-enter you password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
 
     
+
+
+
     <script src="login.js"></script>
 
 </body>
-
 </html>
